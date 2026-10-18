@@ -48,6 +48,7 @@ export interface TopicItem {
   year: '1' | '2' | '3' | '4';
   frequency: 'Repeated 5+ Years' | 'Most Frequent' | 'Gold Medal Topic' | 'Clinical Vignette';
   examWeight: '10-Mark Essay' | '5-Mark Short Essay' | '2-Mark Short Note';
+  diagramType?: string;
   answers: AnswerBlueprint;
 }
 
@@ -106,6 +107,7 @@ export const CURRICULUM_DATA: Record<string, CurriculumYear> = {
             year: '1',
             frequency: 'Repeated 5+ Years',
             examWeight: '10-Mark Essay',
+            diagramType: 'brachial-plexus',
             answers: {
               mark2: {
                 definition: "Erb's Palsy is an upper brachial plexus injury caused by traction injury to the C5-C6 nerve roots at Erb's Point (meeting of 6 nerve roots).",
@@ -192,6 +194,7 @@ export const CURRICULUM_DATA: Record<string, CurriculumYear> = {
             year: '1',
             frequency: 'Most Frequent',
             examWeight: '10-Mark Essay',
+            diagramType: 'stomach-bed',
             answers: {
               mark2: {
                 definition: "Stomach is a J-shaped muscular reservoir situated in the epigastric, umbilical, and left hypochondriac regions of the abdomen.",
@@ -284,6 +287,7 @@ export const CURRICULUM_DATA: Record<string, CurriculumYear> = {
             year: '1',
             frequency: 'Repeated 5+ Years',
             examWeight: '10-Mark Essay',
+            diagramType: 'action-potential',
             answers: {
               mark2: {
                 definition: "An action potential is a rapid, all-or-none reversal and restoration of membrane electrical potential across an excitable cell membrane.",
@@ -943,6 +947,7 @@ export const CURRICULUM_DATA: Record<string, CurriculumYear> = {
             year: '4',
             frequency: 'Repeated 5+ Years',
             examWeight: '10-Mark Essay',
+            diagramType: 'dka-protocol',
             answers: {
               mark2: {
                 definition: "DKA is an acute, life-threatening metabolic crisis characterized by the biochemical triad of: Hyperglycemia (>200 mg/dL), Ketosis (high urine/serum ketones), and High-anion-gap metabolic acidosis (pH <7.3, HCO3 <18 mEq/L).",
@@ -1037,6 +1042,7 @@ export const CURRICULUM_DATA: Record<string, CurriculumYear> = {
             year: '4',
             frequency: 'Repeated 5+ Years',
             examWeight: '10-Mark Essay',
+            diagramType: 'inguinal-hernia',
             answers: {
               mark2: {
                 definition: "An inguinal hernia is a protrusion of abdominal contents through an abnormal opening in the inguinal region of the anterior abdominal wall.",
