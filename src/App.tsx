@@ -171,14 +171,14 @@ export default function App() {
 
             <button
               onClick={() => setIsVercelModalOpen(true)}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-gray-100 text-black text-xs font-bold transition shadow-sm cursor-pointer"
-              title="Deploy to Vercel Guide"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#1b1d28] hover:bg-[#252837] text-white text-xs font-semibold border border-emerald-500/40 transition shadow-sm cursor-pointer"
+              title="Vercel & GitHub Deployment Status"
             >
-              <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 76 65">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <svg className="w-3.5 h-3.5 fill-current text-white" viewBox="0 0 76 65">
                 <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" />
               </svg>
-              <span className="hidden sm:inline">Deploy on Vercel</span>
-              <span className="sm:hidden">Deploy</span>
+              <span className="hidden sm:inline">Vercel Live</span>
             </button>
 
             <PWAInstallButton />
