@@ -1,0 +1,6 @@
+{
+  "name": "VK MBBS Question Bank - Ultimate Topper Edition",
+  "description": "Comprehensive MBBS university exam question bank, topper answer blueprints (2, 5 & 10 marks), high-yield clinical pearls, mock exams, and offline-ready multi-platform PWA for Windows, iOS, and Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
